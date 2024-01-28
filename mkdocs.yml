@@ -1,0 +1,31 @@
+site_name: Umm
+extra_css:
+  - assets/styles.css
+theme:
+    name: material
+    palette:
+        scheme: default # default, slate
+        primary: white # red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue grey, black, white
+        accent: amber
+    font:
+      text: Open Sans
+      code: Roboto Mono
+    logo: assets/logo1.png
+    favicon: assets/logo1.png
+    features:
+    - navigation.tabs # Show top-level nativation as tabs in pages above 1280px
+    - navigation.tabs.sticky #When sticky tabs are enabled, navigation tabs will lock below the header and always remain visible when scrolling down. Just add the following two feature flags to mkdocs.yml:
+    - navigation.sections
+    - navigation.tracking #updates url with new paths
+    - toc.follow # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible. Add the following lines to mkdocs.yml:
+    - toc.integrate # Keeps the TOC as part of the left side bar
+    - content.tooltips
+markdown_extensions:
+  - abbr
+  - attr_list
+  - pymdownx.snippets
+
+nav:
+
+- Framework: framework/index.md
+- Terminology: terminology.md
