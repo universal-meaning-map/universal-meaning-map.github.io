@@ -13,12 +13,9 @@ theme:
     logo: assets/logo1.png
     favicon: assets/logo1.png
     features:
-    - navigation.tabs # Show top-level nativation as tabs in pages above 1280px
-    - navigation.tabs.sticky #When sticky tabs are enabled, navigation tabs will lock below the header and always remain visible when scrolling down. Just add the following two feature flags to mkdocs.yml:
-    - navigation.sections
+    - navigation.instant.preview
+    - navigation.instant
     - navigation.tracking #updates url with new paths
-    - toc.follow # When anchor following for the table of contents is enabled, the sidebar is automatically scrolled so that the active anchor is always visible. Add the following lines to mkdocs.yml:
-    - toc.integrate # Keeps the TOC as part of the left side bar
     - content.tooltips
 markdown_extensions:
   - abbr
@@ -26,6 +23,13 @@ markdown_extensions:
   - pymdownx.snippets
 
 nav:
-
-- Framework: framework/index.md
-- Terminology: terminology.md
+  - Framework:
+    - What something is: framework/what-does-it-mean-that-something-is.md
+    - An intro to Umm: framework/intro-to-umm.md
+    - Nested:
+      - Item1: nothing
+      - Item 3: nothing
+      - Nested:
+        - Item 4: something
+        - Item5: something
+  - Terminology: terminology.md
