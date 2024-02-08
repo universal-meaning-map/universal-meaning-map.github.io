@@ -1,5 +1,6 @@
 # Framework
 
-- [Meaning as internal model](meaning-as-internal-model.md)
-- [Everything an object can be](what-does-it-mean-that-something-is.md)
-- [An Intro to Umm](what-is-umm-how-umm-understands-information-why-is-being-able-to-redefine-what-something-is-so-important-why-we-as-humans-deserve-a-new-information-system.md)
+- [Computers are not serving us](computers-are-not-serving-us.md)
+- [Modeling human cognition](modeling-human-cognition.md)
+- [Protecting the most precious thing(draft)](protecting-the-most-precious-thingdraft.md)
+- [We want human-computer symbiosis](we-want-human-computer-symbiosis.md)

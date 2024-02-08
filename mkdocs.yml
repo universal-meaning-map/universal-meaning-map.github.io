@@ -3,6 +3,7 @@ extra_css:
   - assets/styles.css
 theme:
     name: material
+    custom_dir: overrides
     palette:
         scheme: default # default, slate
         primary: white # red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, green, light green, lime, yellow, amber, orange, deep orange, brown, grey, blue grey, black, white
@@ -17,6 +18,8 @@ theme:
     - navigation.instant
     - navigation.tracking #updates url with new paths
     - content.tooltips
+    - navigation.sections
+    - toc.integrate
 markdown_extensions:
   - abbr
   - attr_list
@@ -24,12 +27,7 @@ markdown_extensions:
 
 nav:
   - Framework:
-    - What something is: framework/what-does-it-mean-that-something-is.md
-    - An intro to Umm: framework/intro-to-umm.md
-    - Nested:
-      - Item1: nothing
-      - Item 3: nothing
-      - Nested:
-        - Item 4: something
-        - Item5: something
-  - Terminology: terminology.md
+    - Computers, Servants or Masters?: computers-are-not-serving-us
+    - Crafting the Mirror of the Mind: modeling-human-cognition
+    - Safeguarding Our Cognitive Treasure: protecting-the-most-precious-thing
+    - We want human-computer symbiosis: we-want-human-computer-symbiosis

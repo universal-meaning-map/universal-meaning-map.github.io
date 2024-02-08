@@ -11,12 +11,18 @@
 body {
     background: rgb(218 218 211 / 40%);
 }
-
+*/
 .md-header {
-    background: none;
+    display: visible        ;
 }
 
-*/
+
+
+
+.md-typeset h1, .md-typeset h2 {
+    font-weight: 700;
+    color: #666
+}
 
 .md-header--shadow {
     box-shadow: none
