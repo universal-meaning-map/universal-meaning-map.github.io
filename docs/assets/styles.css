@@ -11,17 +11,26 @@
 body {
     background: rgb(218 218 211 / 40%);
 }
-*/
+
 .md-header {
     display: visible        ;
 }
+.-md-nav {
+    width:300px;
+}
 
-
-
-
+.md-sidebar__scrollwrap{
+    width:300px
+}
+*/
 .md-typeset h1, .md-typeset h2 {
-    font-weight: 700;
-    color: #666
+    font-weight: 500;
+    color: #666;
+    font-size: 32px
+}
+
+.md-typeset p {
+    font-size: 16px
 }
 
 .md-header--shadow {
